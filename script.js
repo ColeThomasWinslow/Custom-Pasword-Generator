@@ -1,4 +1,3 @@
-
 // locating the if of generate in the html and making that gerenerate btn
 var generateBtn = document.querySelector("#generate");
 //creates a prompt asking for the lenght of the password
@@ -9,7 +8,7 @@ var characterlength = prompt("password length", "");
 const characters ='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!^%$#*';
 //function to generate a Password 
 function generatePassword(length) {
-  //making the result be a string
+  //making the result be a string 
     var result = ' ';
     //local var ofcharacter length equal to the length of the string
     var charactersLength = characters.length;
